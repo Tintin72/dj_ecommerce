@@ -1,7 +1,7 @@
 from .base import *
 
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1','0.0.0.0']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS += [
     'debug_toolbar'
@@ -43,5 +43,5 @@ DATABASES = {
     }
 }
 
-STRIPE_PUBLIC_KEY = config('STRIPE_TEST_PUBLIC_KEY')
-STRIPE_SECRET_KEY = config('STRIPE_TEST_SECRET_KEY')
+STRIPE_PUBLIC_KEY = "#i01vhe^@s5301qy9=rteif22#l+_bpgc3r)^hp*qglf&(kjdo"
+STRIPE_SECRET_KEY = "#i01vhe^@s5301qy9=rteif22#l+_bpgc3r)^hp*qglf&(kjdo"
